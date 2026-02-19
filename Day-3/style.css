@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    background-color: lightgray;
+}
+
+nav{
+    flex-grow: 0;
+    flex-shrink: 0;
+    width:300px; 
+    height:1000px;
+    background-color: pink;
+}
+nav h2{
+    color: white;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex:0 0 45%;
+    padding: 20px;
+    margin:20px;
+    justify-content: space-around;
+    background-color: orange;
+}
+.card{
+
+    width:250px;
+    height:150px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px grey;
+    padding: 20px;
+    margin:50px;
+    
+}
+.row h2{
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 5px;
+}
+.row p{
+    font-size: 20px;
+}
+
+
+/*:root{
+    /* define a var */
+   /* --heading-color:blue;
+    --button-color:pink;
+/*}
+h2{
+    color:var(--heading-color);
+}*/

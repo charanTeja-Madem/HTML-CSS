@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>forms</title>
+</head>
+<body>
+    <form>
+        <!-- form with different input types -->
+        <div>
+            <label for="un">Username:</label>
+            <input type="text" id="un" name="username" required minlength="4">
+        </div>
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="password" required>
+        </div>
+        <!--skills-->
+        <div>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+        </div>
+        <!--gender-->
+        <div>
+            <label>select gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+             <label for="female">Female</label>
+        </div>
+        <!--states-->
+        <div>
+            <label for="state">select a state :</label>
+            <select id="state" name="state">
+                <option value="TS">Telangana</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="ANI">Andaman nicobar island</option>
+            </select>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
