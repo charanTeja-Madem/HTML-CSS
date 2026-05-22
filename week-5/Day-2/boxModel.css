@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*margin and padding */
+h1{
+    width: 700px;
+    text-align: center;
+    border: 10px solid black;
+    padding: 80px;
+    margin: 50px;
+}
+/* align image to centre */
+img{
+    display: block;
+    margin:auto;
+}
+/* second way to align image to centre */

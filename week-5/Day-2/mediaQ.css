@@ -1,0 +1,44 @@
+/*print*/
+/* @media print {
+    body{
+        background-color: white;
+    }
+}
+body{
+    background-color: lightgray;
+} */
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    }
+    .charminar{
+        width: 100%;
+    }
+    .marina{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:501px) {
+    body{
+        background-color: lightgreen;
+    }
+    .charminar{
+        display: none;
+    }
+    .marina{
+        width:none;
+    }
+}
+@media screen and (min-width: 701px) {
+    body{
+        background-color: lightcoral;
+    }
+    .marina{
+        width: 50%;
+    }
+    .charminar{
+        display: none;
+    }
+} 
