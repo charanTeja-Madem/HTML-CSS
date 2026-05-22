@@ -1,15 +1,7 @@
-Week 5 Assignments
-This folder contains assignments and projects completed during Week 5, focusing on HTML and CSS fundamentals.
+A collection of frontend development projects and assignments organized by weeks.
 
-Contents
-webpage-1.html: Initial webpage design.
-Assignment-2: Features pochi.html.
-Assignment-3: Features goose.html.
-Assignment-4:
-Webpage1: Landing page project.
-Webpage-2: Secondary landing page project.
-Assignment-5: A multi-page site featuring various Indian cities:
-Banglore.html
-Chennai.html
-Hyderabad.html
-index.html (Main Entry)
+Repository Structure
+WEEK-5/: Various webpages and assignments from Week 5.
+WEEK-6/: City guides, marketing pages, and grid layouts from Week 6.
+Getting Started
+To view any of the projects, simply open the index.html file within the respective assignment folder in your browser.
